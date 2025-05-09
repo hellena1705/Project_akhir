@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org</groupId>
-    <artifactId>Week11</artifactId>
+    <artifactId>Project</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Week11</name>
 
@@ -66,7 +66,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>org.week11.Apps</mainClass>
+                            <mainClass>org.Project.Apps</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
