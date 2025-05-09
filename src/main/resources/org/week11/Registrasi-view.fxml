@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.week11.RegisterController"
+            prefWidth="400" prefHeight="300">
+   <children>
+      <Label text="Full Name:" layoutX="30" layoutY="40"/>
+      <TextField fx:id="fullNameField" layoutX="130" layoutY="35" prefWidth="200"/>
+
+      <Label text="Email:" layoutX="30" layoutY="90"/>
+      <TextField fx:id="emailIdField" layoutX="130" layoutY="85" prefWidth="200"/>
+
+      <Label text="Password:" layoutX="30" layoutY="140"/>
+      <PasswordField fx:id="passwordField" layoutX="130" layoutY="135" prefWidth="200"/>
+
+      <Button fx:id="submitButton"
+              layoutX="130" layoutY="190"
+              text="Register"
+              onAction="#register"/>
+   </children>
+</AnchorPane>
